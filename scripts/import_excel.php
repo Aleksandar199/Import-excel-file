@@ -42,8 +42,7 @@ if($_FILES["import_excel"]["name"] != '')
          ':budget'  => $row[10]
         );
 
-       
-// if the field in excel is empty, enter an space in field 
+
         if($check_data[':vendor'] == ""){
             $check_data[':vendor'] = " ";
          }
