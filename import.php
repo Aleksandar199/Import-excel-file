@@ -6,14 +6,6 @@ error_reporting(0);
 include 'scripts/connect.php';
 
 
-
-//IF ROLE NOT GlobalAdmin
-if($_SESSION['USRrole'] != "GlobalAdmin"){
-  header("location: index");
-}
-
-
-
 $title = "Importovanje Excel fajla";
 include "inc/header.php"; ?>
 
