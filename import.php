@@ -1,4 +1,3 @@
-<br>
 <?php 
 session_name("budget_tracker");
 session_start();
