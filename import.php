@@ -23,7 +23,7 @@ include "inc/header.php"; ?>
                 <span id="message"></span>
               <tr>
                 <td width="50%"><input type="file" name="import_excel" /></td> <br><br>
-                <td width="25%"><button type="submit" name="import" id="import" class="btn btn-primary">Import Excel File</button></td>
+                <td width="25%"><button type="submit" name="import" id="import" class="btn btn-primary">Import Excel File - TEST</button></td>
               </tr>
      </form>
     </div>
